@@ -21,7 +21,7 @@ let areAllFourSame = (a, b, c, d) => {
 
 //5
 let  areAllFourSameOrEqual = (a, b, c, d) => {
-   return ((a == b && b == c && c == d) ? "same" : ((a === b && b === c && c === d) ? "equal" : "null"));
+   return ((a === b && b === c && c === d) ? "same" : ((a == b && b == c && c == d) ? "equal" : "null"));
 }
 
 
