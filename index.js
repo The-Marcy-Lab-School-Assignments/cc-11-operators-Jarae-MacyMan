@@ -1,27 +1,27 @@
 //1
-function areBothSame(){
-  
+let areBothSame = (a , b) =>{
+  return ((a == b) ? true : false);
 }
 
 //2
-function areBothEqual(){
-  
+let areBothEqual = (a, b)=> {
+   return ((a === b) ? true : false);
 }
 
 //3
-function areAllFourEqual(){
-  
+let areAllFourEqual = (a, b, c, d) =>{
+   return ((a === b && b === c && c === d) ? true : false);
 }
 
 
 //4
-function areAllFourSame(){
-  
+let areAllFourSame = (a, b, c, d) => {
+  return ((a == b && b == c && c == d) ? true : false);
 }
 
 //5
-function areAllFourSameOrEqual(){
-  
+let  areAllFourSameOrEqual = (a, b, c, d) => {
+   return ((a == b && b == c && c == d) ? "same" : ((a === b && b === c && c === d) ? "equal" : "null"));
 }
 
 
